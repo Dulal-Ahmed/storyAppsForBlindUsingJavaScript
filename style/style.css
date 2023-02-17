@@ -63,13 +63,13 @@ section{
 #content button p{
     transform: rotate(90deg);
     font-size: 20px;
-    color: black;
+    
 }
 #content button{
-    width: 40px;
-    height: 40px;
+     padding: 8px;
     background: gray;
     cursor: pointer;
+   
 
 }
 /* Middle right div  */
