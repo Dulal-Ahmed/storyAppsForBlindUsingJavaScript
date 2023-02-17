@@ -1,0 +1,101 @@
+
+{"exchangeRates":[
+    {
+        "key": "USD",
+        "currentExchangeRate": 3.493,
+        "currentChange": 0.4601668104687949381650848400,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "GBP",
+        "currentExchangeRate": 4.2179,
+        "currentChange": 0.721159586407813358167968100,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "JPY",
+        "currentExchangeRate": 2.6338,
+        "currentChange": 0.0607856545855178177950003800,
+        "unit": 100,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "EUR",
+        "currentExchangeRate": 3.7055,
+        "currentChange": 0.3303278910459480681233585100,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "AUD",
+        "currentExchangeRate": 2.3395,
+        "currentChange": 0.0598776784568666866258928200,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "CAD",
+        "currentExchangeRate": 2.5675,
+        "currentChange": 0.6546965657832836757095813100,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "DKK",
+        "currentExchangeRate": 0.4984,
+        "currentChange": 0.3624647603705195328231977400,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "NOK",
+        "currentExchangeRate": 0.3543,
+        "currentChange": -0.3095104108047270680922903800,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "ZAR",
+        "currentExchangeRate": 0.2041,
+        "currentChange": 0.4429133858267716535433070900,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "SEK",
+        "currentExchangeRate": 0.3338,
+        "currentChange": -0.2092675635276532137518684600,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "CHF",
+        "currentExchangeRate": 3.7513,
+        "currentChange": 0.0426700802730885137477664900,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "JOD",
+        "currentExchangeRate": 4.9243,
+        "currentChange": 0.5472179683511995916283818300,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "LBP",
+        "currentExchangeRate": 0.0231,
+        "currentChange": 0.4347826086956521739130434800,
+        "unit": 10,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    },
+    {
+        "key": "EGP",
+        "currentExchangeRate": 0.1411,
+        "currentChange": 0.3556187766714082503556187800,
+        "unit": 1,
+        "lastUpdate": "2022-12-26T11:07:39.5908103Z"
+    }
+]}
