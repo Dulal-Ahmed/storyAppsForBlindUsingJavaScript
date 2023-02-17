@@ -27,8 +27,8 @@ let loadText =(n)=>{
       a = a + n * 1; 
       console.log(datas.exchangeRates[a].key);  
       storyHeader.textContent = datas.exchangeRates[a].key;
-      storybody.textContent = `aj : ${datas.exchangeRates[a].currentExchangeRate}`;
-      storyText.textContent = datas.exchangeRates[a].currentChange;
+      storybody.textContent = ` <b> currentExchangeRate :</b> <br> ${datas.exchangeRates[a].currentExchangeRate}`;
+      storyText.textContent =  `<b> currentChange : </b> <br>  ${datas.exchangeRates[a].currentChange}`;
 
 }
 //  First load funciton call for load deafult data 
