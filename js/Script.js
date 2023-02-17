@@ -27,7 +27,7 @@ let loadText =(n)=>{
       a = a + n * 1; 
       console.log(datas.exchangeRates[a].key);  
       storyHeader.textContent = datas.exchangeRates[a].key;
-      storybody.textContent = datas.exchangeRates[a].currentExchangeRate;
+      storybody.textContent = `aj : ${datas.exchangeRates[a].currentExchangeRate}`;
       storyText.textContent = datas.exchangeRates[a].currentChange;
 
 }
