@@ -1,4 +1,4 @@
-
+//  Load next based Array 
 const sipur1 = [
     {
         id: 1,
@@ -10,7 +10,7 @@ const sipur1 = [
         image: "images/apple1.png",
         text: "רעב",
     },
-    {
+    { 
         id: 3,
         image: "images/juice1.png",
         text: "צמא",
