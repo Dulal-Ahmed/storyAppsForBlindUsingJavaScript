@@ -34,6 +34,16 @@ const sipur1 = [
         id: 7,
         image: "images/juice1.png",
         text: "122",
+    },
+    {
+        id: 8,
+        image: "images/juice1.png",
+        text: "Rendom Quats",
+    },
+    {
+        id: 9,
+        image: "images/juice1.png",
+        text: "Rendom Quats",
     }
 
 ];

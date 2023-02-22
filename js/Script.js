@@ -21,6 +21,25 @@ let firstLoad = ()=>{
     textInput.textContent = sipur1[0].text; 
     leftImage.src = sipur1[0].image;
 }
+// API data from git hub 
+let gitDataDistribute =(dt)=>{
+  //console.log(dt);
+     let arrdt = dt;
+          //  load data  for show story 
+      let indx = Math.floor(Math.random() * 8260);    
+         storyHeader.textContent = `${arrdt[indx].author}`;
+         storybody.textContent = `  ${arrdt[indx].tag}`;
+         storyText.textContent =  `  ${arrdt[indx].text}`;
+}
+
+// data from git hub
+async function getText(file) {
+  let myObject = await fetch(file);
+  let myText = await myObject.json();
+    gitDataDistribute(myText);
+}
+
+
 
 let nextindex = 0; //next index 
 let loadNext = (m)=>{
@@ -87,14 +106,24 @@ if(nextindex == 3){
           storyHeader.textContent = `${juice[a].name}`;
           storybody.textContent = `  ${juice[a].name}`;
           storyText.textContent =  `  ${juice[a].text}`;
-  console.log(`index = : ${nextindex}`)
+  
 }
 if(nextindex == 4){ console.log(`index = : ${nextindex}`)}
 if(nextindex == 5){ console.log(`index = : ${nextindex}`)}
 if(nextindex == 6){ console.log(`index = : ${nextindex}`)}
 if(nextindex == 7){ console.log(`index = : ${nextindex}`)}
+if(nextindex == 8){
+     if( 5  <= a){  a = n * 1; }
 
+    //HEader text
+    textInput.textContent = sipur1[nextindex - 1].text; 
+    leftImage.src = sipur1[nextindex - 1].image;
+  
+  const apiUrl = 'https://jacintodesign.github.io/quotes-api/data/quotes.json';
+   getText(apiUrl);
 
+  
+  }
 
 
 }
@@ -115,17 +144,4 @@ fetch("./story/ExchangeRate.json")
 loadNxtBTN.addEventListener('click', ()=>{
     loadNext(1);
 });
-   // Get Quotes from API
-async function getQuotes() {
-  const apiUrl = 'https://jacintodesign.github.io/quotes-api/data/quotes.json';
-  try {
-      const response = await fetch(apiUrl);
-      apiQuotes = await response.json();
-      
-  }  catch(error) {
-      console.log(error);
-     
-  }
-}
-getQuotes();
-console.log(getQuotes);
+
