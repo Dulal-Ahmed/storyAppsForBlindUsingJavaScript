@@ -92,7 +92,7 @@ if(nextindex == 2){
         storybody.textContent = `  ${foods[a].name}`;
         storyText.textContent =  `  ${foods[a].text}`;
   
-   console.log(`index = : ${nextindex}`)
+
   }
 if(nextindex == 3){ 
     // data array lenght check for indexing 
@@ -108,7 +108,20 @@ if(nextindex == 3){
           storyText.textContent =  `  ${juice[a].text}`;
   
 }
-if(nextindex == 4){ console.log(`index = : ${nextindex}`)}
+if(nextindex == 4){
+    // data array lenght check for indexing 
+    if( Poem.length  <= a){  a = n * 1; }
+  
+    //HEader text
+    textInput.textContent = sipur1[nextindex - 1].text; 
+    leftImage.src = sipur1[nextindex - 1].image;
+  
+          //  load data  for show story 
+          storyHeader.textContent = `${Poem[a].name}`;
+          storybody.textContent = `  ${Poem[a].name}`;
+          storyText.textContent =  `  ${Poem[a].text}`;
+  
+  }
 if(nextindex == 5){ console.log(`index = : ${nextindex}`)}
 if(nextindex == 6){ console.log(`index = : ${nextindex}`)}
 if(nextindex == 7){ console.log(`index = : ${nextindex}`)}
@@ -121,7 +134,7 @@ if(nextindex == 8){
   
   const apiUrl = 'https://jacintodesign.github.io/quotes-api/data/quotes.json';
    getText(apiUrl);
-
+ 
   
   }
 
