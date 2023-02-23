@@ -122,9 +122,49 @@ if(nextindex == 4){
           storyText.textContent =  `  ${Poem[a].text}`;
   
   }
-if(nextindex == 5){ console.log(`index = : ${nextindex}`)}
-if(nextindex == 6){ console.log(`index = : ${nextindex}`)}
-if(nextindex == 7){ console.log(`index = : ${nextindex}`)}
+if(nextindex == 5){ 
+    // data array lenght check for indexing 
+    if( songs.length  <= a){  a = n * 1; }
+  
+    //HEader text
+    textInput.textContent = sipur1[nextindex - 1].text; 
+    leftImage.src = sipur1[nextindex - 1].image;
+  
+          //  load data  for show story 
+          storyHeader.textContent = `${songs[a].name}`;
+          storybody.textContent = `  ${songs[a].name}`;
+          storyText.textContent =  `  ${songs[a].text}`;
+
+
+}
+if(nextindex == 6){ 
+      // data array lenght check for indexing 
+      if( maths.length  <= a){  a = n * 1; }
+  
+      //HEader text
+      textInput.textContent = sipur1[nextindex - 1].text; 
+      leftImage.src = sipur1[nextindex - 1].image;
+    
+            //  load data  for show story 
+            storyHeader.textContent = `${maths[a].name}`;
+            storybody.textContent = `  ${maths[a].name}`;
+            storyText.textContent =  `  ${maths[a].text}`;
+  
+}
+if(nextindex == 7){ 
+      // data array lenght check for indexing 
+      if( physics.length  <= a){  a = n * 1; }
+  
+      //HEader text
+      textInput.textContent = sipur1[nextindex - 1].text; 
+      leftImage.src = sipur1[nextindex - 1].image;
+    
+            //  load data  for show story 
+            storyHeader.textContent = `${physics[a].name}`;
+            storybody.textContent = `  ${physics[a].name}`;
+            storyText.textContent =  `  ${physics[a].text}`;
+  
+}
 if(nextindex == 8){
      if( 5  <= a){  a = n * 1; }
 
